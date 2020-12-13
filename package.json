@@ -1,0 +1,39 @@
+{
+  "name": "bocchibot",
+  "version": "0.4.2",
+  "description": "BocchiBot is a multipurpose WhatsApp bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "SlavyanDesu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlavyanDesu/BocchiBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SlavyanDesu/BocchiBot/issues"
+  },
+  "homepage": "https://github.com/SlavyanDesu/BocchiBot",
+  "license": "MIT",
+  "dependencies": {
+    "@justalk/pornhub-api": "^3.4.0",
+    "@open-wa/wa-automate": "^3.1.8",
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "figlet": "^1.5.0",
+    "file-type": "^16.0.1",
+    "form-data": "^3.0.0",
+    "fs-extra": "^9.0.1",
+    "moment-timezone": "^0.5.31",
+    "nekos.life": "^2.0.7",
+    "nhentai-api": "^3.0.2",
+    "nhentai-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.3",
+    "sagiri": "^3.1.1"
+  }
+}
